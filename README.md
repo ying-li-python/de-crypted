@@ -5,7 +5,7 @@ Cryptocurrecies are highly volatile assets compared to other asset classes, whic
 Hence, we propose a novel way to investigate cryptocurrency valuation by assessing any correlations of these cryptocurrencies at short term periods.  
 
 ## De-crypted App 
-A web application that allows users to explore trends and correlations between the exchange rates of several cryptocurrencies relative to bitcoin, including historical data, and the option to query a custom-built API live feed. Cryptocurrencies used: ETH (Ether), XRP (Ripple), LTC (litecoin), BCC (Bitcoin Cash),E OS (Eos), BNB (Binance Coin), and three minor cryptocurrencies. 
+A web application that allows users to explore trends and correlations between the exchange rates of several cryptocurrencies relative to bitcoin, including historical data, and the option to query a custom-built API live feed. Cryptocurrencies used: ETH (Ether), XRP (Ripple), LTC (litecoin), BCC (Bitcoin Cash),EOS (Eos), BNB (Binance Coin), and three minor cryptocurrencies. 
 
 [Live app](https://de-crypted.herokuapp.com/)
 
@@ -24,12 +24,12 @@ We designed this app with the intention of discovering patterns in trends in the
 ### Data & App Design Roadmap
 <img src="https://raw.githubusercontent.com/ying-li-python/de-crypted/master/static/images%20/data-pipeline.png" width="80%" height="80%">
 
-### Resources: 
+### Resources
 - Historical data: [Kaggle](https://www.kaggle.com/philmohun/cryptocurrency-financial-data)
 - Live ticker and price information: [Binance API](https://www.binance.com/en)
 - Cryptocurrencies by Market Cap: [Coin Market Cap](https://coinmarketcap.com/) (Only for minor cryptocurrencies)
 
-### Additional Databases:
+### Additional Databases
 - Local sqlite file (for 1 year history)
 
 ### Authors
