@@ -16,15 +16,13 @@
             <!-- create select here -->
             <form>
             
-            <h6>Enter two currencies and two datetimes to analyze.</h6>
-            
             <div class="row">
                 <div class="col">
-                
-                <input type="text" class="form-control" placeholder="BNBBTC" id="firstCurrency">
+                <p style="color: rgb(0, 0, 0); text-align: center;">Select 1st Currency: <select id="selfirstCurrency" onchange="optionChanged(this.value)"></select></p>
+            
                 </div>
                 <div class="col">
-                <input type="text" class="form-control" placeholder="EOSBTC" id="secondCurrency">
+                <p style="color: rgb(0, 0, 0); text-align: center;">Select 2nd Currency: <select id="selsecondCurrency" onchange="optionChanged(this.value)"></select></p>
                 </div>
                 <div class="col">
                 <input type="text" class="form-control" placeholder="2019-06-26T23:14:04" id="firstDateTime">
@@ -93,9 +91,11 @@
         <div class="col-md-12">
             <div id="plot"></div>
         </div>
-    </div>
-</div>
+        <br>
     <br>
+    </div>
+    
+</div>
     <br>
 
 

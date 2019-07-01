@@ -1,3 +1,27 @@
+function init(){
+  var selector = d3.select("#selfirstCurrency");
+  var selector2 = d3.select("#selsecondCurrency");
+  
+  d3.json("/BTC_explore").then((btc_list) => {
+    //console.log(btc_names);
+    btc_list.forEach((btc) => {
+        selector
+        .append("option")
+        .text(btc)
+        .property("value", btc);
+    });
+    btc_list.forEach((btc) => {
+      selector2
+      .append("option")
+      .text(btc)
+      .property("value", btc);
+  });
+  });
+
+}
+
+init();
+
 console.log("Script is here");
 
 // /** 
@@ -77,10 +101,13 @@ function getPearsonCorrelation(x, y) {
 function respond_to_button() {
     d3.event.preventDefault();
     console.log("Your button is reacting");
-    var userSelectedCrypto1 = d3.select("#firstCurrency").node().value;
-    var userSelectedCrypto2 = d3.select("#secondCurrency").node().value;
+    //var userSelectedCrypto1 = d3.select("#firstCurrency").node().value;
+    // var userSelectedCrypto2 = d3.select("#secondCurrency").node().value;
     var userSelectedDateTime1 = d3.select("#firstDateTime").node().value;
     var userSelectedDateTime2 = d3.select("#secondDateTime").node().value;
+
+    var userSelectedCrypto1 = d3.select("#selfirstCurrency option:checked").text();
+    var userSelectedCrypto2 = d3.select("#selsecondCurrency option:checked").text();
     console.log(userSelectedCrypto1);
     console.log(userSelectedDateTime1);
     datetimeBro = String(userSelectedDateTime1);
