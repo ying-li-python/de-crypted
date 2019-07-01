@@ -148,6 +148,7 @@ function buildPlot () {
       xaxis: {
         range: [startdate, enddate], 
         autorange: true,
+        showticklabels: true,
         type: "date"
       },
       yaxis: {
