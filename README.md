@@ -5,7 +5,7 @@ Cryptocurrecies are highly volatile assets compared to other asset classes, whic
 Hence, we propose a novel way to investigate cryptocurrency valuation by assessing any correlations of these cryptocurrencies at short term periods.  
 
 ## De-crypted App 
-A web application that allows users to explore trends and correlations between the exchange rates of several cryptocurrencies relative to bitcoin, including historical data, and the option to query a custom-built live feed. Cryptocurrencies used: ETH (Ether),XRP (Ripple),LTC (litecoin),BCC (Bitcoin Cash),EOS (Eos),BNB (Binance Coin),and three minor cryptocurrencies. 
+A web application that allows users to explore trends and correlations between the exchange rates of several cryptocurrencies relative to bitcoin, including historical data, and the option to query a custom-built API live feed. Cryptocurrencies used: ETH (Ether), XRP (Ripple), LTC (litecoin), BCC (Bitcoin Cash),E OS (Eos), BNB (Binance Coin), and three minor cryptocurrencies. 
 
 [Live app](https://de-crypted.herokuapp.com/)
 
@@ -21,19 +21,24 @@ For the comparison page, we prepared a bitcoin correletion data for the real "pr
 
 We designed this app with the intention of discovering patterns in trends in the sporadic and seemingly unpredictable realm of cryptocurrency and presenting these patterns in a visibly informative way.
 
-### Data Roadmap
+### Data & App Design Roadmap
 <img src="https://raw.githubusercontent.com/ying-li-python/de-crypted/master/static/images%20/data-pipeline.png" width="80%" height="80%">
 
 ### Resources: 
-- [Kaggle](https://www.kaggle.com/philmohun/cryptocurrency-financial-data)
-- [Binance API](https://www.binance.com/en)
-- [Coin Market Cap](https://coinmarketcap.com/) (Only for minor cryptocurrencies)
+- Historical data: [Kaggle](https://www.kaggle.com/philmohun/cryptocurrency-financial-data)
+- Live ticker and price information: [Binance API](https://www.binance.com/en)
+- Cryptocurrencies by Market Cap: [Coin Market Cap](https://coinmarketcap.com/) (Only for minor cryptocurrencies)
 
 ### Additional Databases:
 - Local sqlite file (for 1 year history)
 
 ### Authors
 Nick Setnik, Donish Cushing, Naoko Okada, Priya R., Ying Li
+
+### Github sources
+- [Live data feed](https://github.com/Priyarag/flaskapptest)
+- [Live app](https://github.com/ying-li-python/de-crypted/)
+- [Core app design](https://github.com/nsetnik0703/Crypto-Live)
 
 ### Inspiration
 ![Image of picture1](https://github.com/nsetnik0703/Crypto-Live/blob/master/Proposal/images/Picture1.png)
