@@ -89,6 +89,7 @@ body {
     }
       .card-body:hover{
         background-image: url("https://yt3.ggpht.com/a/AGF-l79StRyDW9A-TohGZhSpmio2pwh8zQX-d5HNOQ=s900-mo-c-c0xffffffff-rj-k-no");
+        opacity: 0.5;
       }
 
     .card-title {
