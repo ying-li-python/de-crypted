@@ -15,7 +15,7 @@ Built using [AWS RDS](https://aws.amazon.com/rds/) and [AWS EC2](https://aws.ama
 
 On the homepage, there is a "live" data feed for each of the 6 cryptocurrencies, including ticker price and the relevant exchange rates from the past 7 days. 
 
-The real magic is found on the Explore page, where users can request data from a specific time frame (of the past 7 days) between 2 cryptocurrencies, by which the page generates data visualizations, including a line and boxplot of each cryptocurrency, and a scatterplot to represent any correlations with Pearson's r. 
+The real magic is found on the Explore page, where users can request data from a specific time frame (of the past 7 days) between 2 cryptocurrencies, by which the page generates data visualizations, including a line and boxplot of each cryptocurrency, and a scatterplot to represent any correlations with Pearson's r.
 
 For the comparison page, we prepared a bitcoin correletion data for the real "promising" investers, where you can see 3 less corrlated currencies and their trends.
 
@@ -35,10 +35,11 @@ We designed this app with the intention of discovering patterns in trends in the
 ### Authors
 Nick Setnik, Donish Cushing, Naoko Okada, Priya R., Ying Li
 
-### Github sources
+### Github Repositories
 - [Live data feed](https://github.com/Priyarag/flaskapptest)
 - [Live app](https://github.com/ying-li-python/de-crypted/)
 - [Core app design](https://github.com/nsetnik0703/Crypto-Live)
+- [EC2 connection for JSON parsing and loading data to AWS RDS](https://github.com/Priyarag/ec2connection/)
 
 ### Inspiration
 ![Image of picture1](https://github.com/nsetnik0703/Crypto-Live/blob/master/Proposal/images/Picture1.png)
