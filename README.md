@@ -7,8 +7,6 @@ Hence, we propose a novel way to investigate cryptocurrency valuation by assessi
 ## De-crypted App 
 A web application that allows users to explore trends and correlations between the exchange rates of several cryptocurrencies relative to bitcoin, including historical data, and the option to query a custom-built API live feed. Cryptocurrencies used: ETH (Ether), XRP (Ripple), LTC (litecoin), BCC (Bitcoin Cash),EOS (Eos), BNB (Binance Coin), and three minor cryptocurrencies. 
 
-[Live app](https://de-crypted.herokuapp.com/)
-
 Built using [AWS RDS](https://aws.amazon.com/rds/) and [AWS EC2](https://aws.amazon.com/ec2/)
 - [Live data feed](https://flask-crypto.herokuapp.com/livedata)
 - [Live ticker price](https://flask-crypto.herokuapp.com/api/v1.0/cryptosies)
